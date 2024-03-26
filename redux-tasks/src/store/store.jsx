@@ -7,6 +7,10 @@ import palidrom2 from "../slice/palidrom2";
 import witchText from "../slice/witchText";
 import validationEmail from "../slice/validationEmail";
 import sumInp from "../slice/sumInp";
+import validPass from "../slice/validPass";
+import plusMinusSize from "../slice/plusMinusSize";
+import lengvich from "../slice/lengvich";
+import ulTasks from "../slice/ulTasks";
 
 const store = configureStore({
   reducer: {
@@ -17,7 +21,11 @@ const store = configureStore({
     palidrom2: palidrom2,
     witchText: witchText,
     validationEmail:validationEmail,
-    sumInp:sumInp
+    sumInp:sumInp,
+    validPass:validPass,
+    plusMinusSize:plusMinusSize,
+    lengvich:lengvich,
+    ulTasks:ulTasks
   },
 });
 
